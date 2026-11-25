@@ -1,0 +1,11 @@
+sku,name,aliases,category,warehouse,on_hand,reserved,reorder_point,unit_cost_sar
+BRG-6204,Bearing 6204,ball bearing 6204|رمان بلي 6204|محمل 6204,Mechanical,Riyadh,120,20,60,45
+BRG-6204,Bearing 6204,ball bearing 6204|رمان بلي 6204|محمل 6204,Mechanical,Jeddah,75,5,60,45
+MTR-2KW,Electric Motor 2kW,موتور 2 كيلو|محرك كهربائي 2 كيلو|2kw motor,Electrical,Riyadh,42,10,40,1750
+MTR-2KW,Electric Motor 2kW,موتور 2 كيلو|محرك كهربائي 2 كيلو|2kw motor,Electrical,Dammam,16,4,40,1750
+FLT-H13,HEPA H13 Filter,فلتر هيبا|فلتر h13|hepa filter,HVAC,Jeddah,38,15,30,170
+VLV-25,25mm Valve,صمام 25 ملي|محبس 25|valve 25mm,Plumbing,Riyadh,120,60,80,90
+SNS-T10,Temperature Sensor T10,حساس حرارة|مجس حراره t10|temp sensor,Electronics,Dammam,32,8,30,320
+CBL-USB-C,USB-C Industrial Cable,كيبل تايب سي|usb c cable|وصلة يو اس بي سي,Electronics,Riyadh,250,120,100,55
+PMP-01,Water Pump 1HP,طرمبة موية|مضخة ماء 1 حصان|water pump 1hp,Mechanical,Jeddah,18,8,20,1100
+GSK-18,Rubber Gasket 18mm,جلدة 18|rubber seal|حشية مطاطية,Mechanical,Dammam,440,60,120,12

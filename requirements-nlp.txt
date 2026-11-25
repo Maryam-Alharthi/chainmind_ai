@@ -1,0 +1,6 @@
+# Optional research stack; the main Streamlit app and baselines do not require this file.
+# Install only in an isolated Python 3.11 environment when pretrained local models are needed.
+transformers>=4.45,<5
+torch>=2.2,<3
+sentence-transformers>=3,<6
+faiss-cpu>=1.8,<2

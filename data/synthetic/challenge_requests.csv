@@ -1,0 +1,101 @@
+request_id,text,intent,language,sku,quantity,warehouse,family_id,split,synthetic
+CHREQ-001,Could you tell me the unreserved balance for the requested part at Madinah?,stock_inquiry,en,,10,Madinah,FAM-BEL,challenge_test,True
+CHREQ-002,كم قطعة غير محجوزة من BEL-02 في أبها؟,stock_inquiry,ar,BEL-02,23,Abha,FAM-BEL,challenge_test,True
+CHREQ-003,Can I allocate BEL-03 من فرع Riyadh؟,stock_inquiry,mixed,BEL-03,36,Riyadh,FAM-BEL,challenge_test,True
+CHREQ-004,Is any usable quantity of BEL-04 sitting at Jeddah?,stock_inquiry,en,BEL-04,49,Jeddah,FAM-BEL,challenge_test,True
+CHREQ-005,أحتاج رصيد الصنف هذا الصنف الجاهز للصرف في الدمام.,stock_inquiry,ar,,62,Dammam,FAM-BEL,challenge_test,True
+CHREQ-006,Could you tell me the unreserved balance for LED-01 at Madinah?,stock_inquiry,en,LED-01,75,Madinah,FAM-LED,challenge_test,True
+CHREQ-007,كم قطعة غير محجوزة من LED-02 في أبها؟,stock_inquiry,ar,LED-02,88,Abha,FAM-LED,challenge_test,True
+CHREQ-008,Can I allocate LED-03 من فرع Riyadh؟,stock_inquiry,mixed,LED-03,101,Riyadh,FAM-LED,challenge_test,True
+CHREQ-009,Is any usable quantity of the requested part sitting at Jeddah?,stock_inquiry,en,,114,Jeddah,FAM-LED,challenge_test,True
+CHREQ-010,أحتاج رصيد الصنف LED-05 الجاهز للصرف في الدمام.,stock_inquiry,ar,LED-05,127,Dammam,FAM-LED,challenge_test,True
+CHREQ-011,Could you tell me the unreserved balance for MSK-01 at Jeddah?,stock_inquiry,en,MSK-01,140,Jeddah,FAM-MSK,challenge_test,True
+CHREQ-012,كم قطعة غير محجوزة من MSK-02 في الدمام؟,stock_inquiry,ar,MSK-02,13,Dammam,FAM-MSK,challenge_test,True
+CHREQ-013,Can I allocate هذا الصنف من فرع Madinah؟,stock_inquiry,mixed,,26,Madinah,FAM-MSK,challenge_test,True
+CHREQ-014,Is any usable quantity of MSK-04 sitting at Abha?,stock_inquiry,en,MSK-04,39,Abha,FAM-MSK,challenge_test,True
+CHREQ-015,أحتاج رصيد الصنف MSK-05 الجاهز للصرف في الرياض.,stock_inquiry,ar,MSK-05,52,Riyadh,FAM-MSK,challenge_test,True
+CHREQ-016,Could you tell me the unreserved balance for HLM-01 at Madinah?,stock_inquiry,en,HLM-01,65,Madinah,FAM-HLM,challenge_test,True
+CHREQ-017,كم قطعة غير محجوزة من هذا الصنف في أبها؟,stock_inquiry,ar,,78,Abha,FAM-HLM,challenge_test,True
+CHREQ-018,Can I allocate HLM-03 من فرع Riyadh؟,stock_inquiry,mixed,HLM-03,91,Riyadh,FAM-HLM,challenge_test,True
+CHREQ-019,Is any usable quantity of HLM-04 sitting at Jeddah?,stock_inquiry,en,HLM-04,104,Jeddah,FAM-HLM,challenge_test,True
+CHREQ-020,أحتاج رصيد الصنف HLM-05 الجاهز للصرف في الدمام.,stock_inquiry,ar,HLM-05,117,Dammam,FAM-HLM,challenge_test,True
+CHREQ-021,Demand is 130 pieces; would supply of the requested part fall short in Jeddah?,shortage_check,en,,130,Jeddah,FAM-PPE,challenge_test,True
+CHREQ-022,الطلب 143 قطعة، هل سيظهر عجز للصنف PPE-02 في الدمام؟,shortage_check,ar,PPE-02,143,Dammam,FAM-PPE,challenge_test,True
+CHREQ-023,هل الكمية تكفي لـ 16 units من PPE-03؟,shortage_check,mixed,PPE-03,16,Madinah,FAM-PPE,challenge_test,True
+CHREQ-024,Compare the 29-unit requirement with the free stock of PPE-04.,shortage_check,en,PPE-04,29,Abha,FAM-PPE,challenge_test,True
+CHREQ-025,قارن احتياج 42 وحدة برصيد هذا الصنف المتاح.,shortage_check,ar,,42,Riyadh,FAM-PPE,challenge_test,True
+CHREQ-026,Demand is 55 pieces; would supply of BEL-01 fall short in Madinah?,shortage_check,en,BEL-01,55,Madinah,FAM-BEL,challenge_test,True
+CHREQ-027,الطلب 68 قطعة، هل سيظهر عجز للصنف BEL-02 في أبها؟,shortage_check,ar,BEL-02,68,Abha,FAM-BEL,challenge_test,True
+CHREQ-028,هل الكمية تكفي لـ 81 units من BEL-03؟,shortage_check,mixed,BEL-03,81,Riyadh,FAM-BEL,challenge_test,True
+CHREQ-029,Compare the 94-unit requirement with the free stock of the requested part.,shortage_check,en,,94,Jeddah,FAM-BEL,challenge_test,True
+CHREQ-030,قارن احتياج 107 وحدة برصيد BEL-05 المتاح.,shortage_check,ar,BEL-05,107,Dammam,FAM-BEL,challenge_test,True
+CHREQ-031,Demand is 120 pieces; would supply of LED-01 fall short in Madinah?,shortage_check,en,LED-01,120,Madinah,FAM-LED,challenge_test,True
+CHREQ-032,الطلب 133 قطعة، هل سيظهر عجز للصنف LED-02 في أبها؟,shortage_check,ar,LED-02,133,Abha,FAM-LED,challenge_test,True
+CHREQ-033,هل الكمية تكفي لـ 146 units من هذا الصنف؟,shortage_check,mixed,,146,Riyadh,FAM-LED,challenge_test,True
+CHREQ-034,Compare the 19-unit requirement with the free stock of LED-04.,shortage_check,en,LED-04,19,Jeddah,FAM-LED,challenge_test,True
+CHREQ-035,قارن احتياج 32 وحدة برصيد LED-05 المتاح.,shortage_check,ar,LED-05,32,Dammam,FAM-LED,challenge_test,True
+CHREQ-036,Demand is 45 pieces; would supply of MSK-01 fall short in Jeddah?,shortage_check,en,MSK-01,45,Jeddah,FAM-MSK,challenge_test,True
+CHREQ-037,الطلب 58 قطعة، هل سيظهر عجز للصنف هذا الصنف في الدمام؟,shortage_check,ar,,58,Dammam,FAM-MSK,challenge_test,True
+CHREQ-038,هل الكمية تكفي لـ 71 units من MSK-03؟,shortage_check,mixed,MSK-03,71,Madinah,FAM-MSK,challenge_test,True
+CHREQ-039,Compare the 84-unit requirement with the free stock of MSK-04.,shortage_check,en,MSK-04,84,Abha,FAM-MSK,challenge_test,True
+CHREQ-040,قارن احتياج 97 وحدة برصيد MSK-05 المتاح.,shortage_check,ar,MSK-05,97,Riyadh,FAM-MSK,challenge_test,True
+CHREQ-041,Put the requested part on the restock review list for Madinah.,replenishment,en,,110,Madinah,FAM-HLM,challenge_test,True
+CHREQ-042,هل ندرج HLM-02 ضمن قائمة تعويض النواقص في أبها؟,replenishment,ar,HLM-02,123,Abha,FAM-HLM,challenge_test,True
+CHREQ-043,Review reorder for HLM-03 في Riyadh.,replenishment,mixed,HLM-03,136,Riyadh,FAM-HLM,challenge_test,True
+CHREQ-044,Suggest a draft top-up if HLM-04 is below its buffer at Jeddah.,replenishment,en,HLM-04,149,Jeddah,FAM-HLM,challenge_test,True
+CHREQ-045,راجع مستوى الأمان واقترح تعبئة مبدئية لـ هذا الصنف.,replenishment,ar,,22,Dammam,FAM-HLM,challenge_test,True
+CHREQ-046,Put PPE-01 on the restock review list for Jeddah.,replenishment,en,PPE-01,35,Jeddah,FAM-PPE,challenge_test,True
+CHREQ-047,هل ندرج PPE-02 ضمن قائمة تعويض النواقص في الدمام؟,replenishment,ar,PPE-02,48,Dammam,FAM-PPE,challenge_test,True
+CHREQ-048,Review reorder for PPE-03 في Madinah.,replenishment,mixed,PPE-03,61,Madinah,FAM-PPE,challenge_test,True
+CHREQ-049,Suggest a draft top-up if the requested part is below its buffer at Abha.,replenishment,en,,74,Abha,FAM-PPE,challenge_test,True
+CHREQ-050,راجع مستوى الأمان واقترح تعبئة مبدئية لـ PPE-05.,replenishment,ar,PPE-05,87,Riyadh,FAM-PPE,challenge_test,True
+CHREQ-051,Put BEL-01 on the restock review list for Madinah.,replenishment,en,BEL-01,100,Madinah,FAM-BEL,challenge_test,True
+CHREQ-052,هل ندرج BEL-02 ضمن قائمة تعويض النواقص في أبها؟,replenishment,ar,BEL-02,113,Abha,FAM-BEL,challenge_test,True
+CHREQ-053,Review reorder for هذا الصنف في Riyadh.,replenishment,mixed,,126,Riyadh,FAM-BEL,challenge_test,True
+CHREQ-054,Suggest a draft top-up if BEL-04 is below its buffer at Jeddah.,replenishment,en,BEL-04,139,Jeddah,FAM-BEL,challenge_test,True
+CHREQ-055,راجع مستوى الأمان واقترح تعبئة مبدئية لـ BEL-05.,replenishment,ar,BEL-05,12,Dammam,FAM-BEL,challenge_test,True
+CHREQ-056,Put LED-01 on the restock review list for Madinah.,replenishment,en,LED-01,25,Madinah,FAM-LED,challenge_test,True
+CHREQ-057,هل ندرج هذا الصنف ضمن قائمة تعويض النواقص في أبها؟,replenishment,ar,,38,Abha,FAM-LED,challenge_test,True
+CHREQ-058,Review reorder for LED-03 في Riyadh.,replenishment,mixed,LED-03,51,Riyadh,FAM-LED,challenge_test,True
+CHREQ-059,Suggest a draft top-up if LED-04 is below its buffer at Jeddah.,replenishment,en,LED-04,64,Jeddah,FAM-LED,challenge_test,True
+CHREQ-060,راجع مستوى الأمان واقترح تعبئة مبدئية لـ LED-05.,replenishment,ar,LED-05,77,Dammam,FAM-LED,challenge_test,True
+CHREQ-061,Can the Jeddah team dispatch 90 of the requested part today?,shipping,en,,90,Jeddah,FAM-MSK,challenge_test,True
+CHREQ-062,هل يمكن تجهيز شحنة من 103 وحدة للصنف MSK-02 عبر الدمام؟,shipping,ar,MSK-02,103,Dammam,FAM-MSK,challenge_test,True
+CHREQ-063,Check delivery-ready stock for MSK-03 من Madinah.,shipping,mixed,MSK-03,116,Madinah,FAM-MSK,challenge_test,True
+CHREQ-064,Find a dispatch location for 129 pieces of MSK-04.,shipping,en,MSK-04,129,Abha,FAM-MSK,challenge_test,True
+CHREQ-065,تحقق من جاهزية صرف هذا الصنف للشحن من الرياض.,shipping,ar,,142,Riyadh,FAM-MSK,challenge_test,True
+CHREQ-066,Can the Madinah team dispatch 15 of HLM-01 today?,shipping,en,HLM-01,15,Madinah,FAM-HLM,challenge_test,True
+CHREQ-067,هل يمكن تجهيز شحنة من 28 وحدة للصنف HLM-02 عبر أبها؟,shipping,ar,HLM-02,28,Abha,FAM-HLM,challenge_test,True
+CHREQ-068,Check delivery-ready stock for HLM-03 من Riyadh.,shipping,mixed,HLM-03,41,Riyadh,FAM-HLM,challenge_test,True
+CHREQ-069,Find a dispatch location for 54 pieces of the requested part.,shipping,en,,54,Jeddah,FAM-HLM,challenge_test,True
+CHREQ-070,تحقق من جاهزية صرف HLM-05 للشحن من الدمام.,shipping,ar,HLM-05,67,Dammam,FAM-HLM,challenge_test,True
+CHREQ-071,Can the Jeddah team dispatch 80 of PPE-01 today?,shipping,en,PPE-01,80,Jeddah,FAM-PPE,challenge_test,True
+CHREQ-072,هل يمكن تجهيز شحنة من 93 وحدة للصنف PPE-02 عبر الدمام؟,shipping,ar,PPE-02,93,Dammam,FAM-PPE,challenge_test,True
+CHREQ-073,Check delivery-ready stock for هذا الصنف من Madinah.,shipping,mixed,,106,Madinah,FAM-PPE,challenge_test,True
+CHREQ-074,Find a dispatch location for 119 pieces of PPE-04.,shipping,en,PPE-04,119,Abha,FAM-PPE,challenge_test,True
+CHREQ-075,تحقق من جاهزية صرف PPE-05 للشحن من الرياض.,shipping,ar,PPE-05,132,Riyadh,FAM-PPE,challenge_test,True
+CHREQ-076,Can the Madinah team dispatch 145 of BEL-01 today?,shipping,en,BEL-01,145,Madinah,FAM-BEL,challenge_test,True
+CHREQ-077,هل يمكن تجهيز شحنة من 18 وحدة للصنف هذا الصنف عبر أبها؟,shipping,ar,,18,Abha,FAM-BEL,challenge_test,True
+CHREQ-078,Check delivery-ready stock for BEL-03 من Riyadh.,shipping,mixed,BEL-03,31,Riyadh,FAM-BEL,challenge_test,True
+CHREQ-079,Find a dispatch location for 44 pieces of BEL-04.,shipping,en,BEL-04,44,Jeddah,FAM-BEL,challenge_test,True
+CHREQ-080,تحقق من جاهزية صرف BEL-05 للشحن من الدمام.,shipping,ar,BEL-05,57,Dammam,FAM-BEL,challenge_test,True
+CHREQ-081,Does the buyer need to raise a draft requisition for the requested part?,purchasing,en,,70,Madinah,FAM-LED,challenge_test,True
+CHREQ-082,هل تستدعي حالة LED-02 إعداد مسودة طلب توريد؟,purchasing,ar,LED-02,83,Abha,FAM-LED,challenge_test,True
+CHREQ-083,Prepare a purchase review for LED-03 بالاستناد إلى المخزون.,purchasing,mixed,LED-03,96,Riyadh,FAM-LED,challenge_test,True
+CHREQ-084,Estimate a procurement top-up of 109 for LED-04; do not place an order.,purchasing,en,LED-04,109,Jeddah,FAM-LED,challenge_test,True
+CHREQ-085,راجع الحاجة الشرائية للصنف هذا الصنف دون تنفيذ شراء.,purchasing,ar,,122,Dammam,FAM-LED,challenge_test,True
+CHREQ-086,Does the buyer need to raise a draft requisition for MSK-01?,purchasing,en,MSK-01,135,Jeddah,FAM-MSK,challenge_test,True
+CHREQ-087,هل تستدعي حالة MSK-02 إعداد مسودة طلب توريد؟,purchasing,ar,MSK-02,148,Dammam,FAM-MSK,challenge_test,True
+CHREQ-088,Prepare a purchase review for MSK-03 بالاستناد إلى المخزون.,purchasing,mixed,MSK-03,21,Madinah,FAM-MSK,challenge_test,True
+CHREQ-089,Estimate a procurement top-up of 34 for the requested part; do not place an order.,purchasing,en,,34,Abha,FAM-MSK,challenge_test,True
+CHREQ-090,راجع الحاجة الشرائية للصنف MSK-05 دون تنفيذ شراء.,purchasing,ar,MSK-05,47,Riyadh,FAM-MSK,challenge_test,True
+CHREQ-091,Does the buyer need to raise a draft requisition for HLM-01?,purchasing,en,HLM-01,60,Madinah,FAM-HLM,challenge_test,True
+CHREQ-092,هل تستدعي حالة HLM-02 إعداد مسودة طلب توريد؟,purchasing,ar,HLM-02,73,Abha,FAM-HLM,challenge_test,True
+CHREQ-093,Prepare a purchase review for هذا الصنف بالاستناد إلى المخزون.,purchasing,mixed,,86,Riyadh,FAM-HLM,challenge_test,True
+CHREQ-094,Estimate a procurement top-up of 99 for HLM-04; do not place an order.,purchasing,en,HLM-04,99,Jeddah,FAM-HLM,challenge_test,True
+CHREQ-095,راجع الحاجة الشرائية للصنف HLM-05 دون تنفيذ شراء.,purchasing,ar,HLM-05,112,Dammam,FAM-HLM,challenge_test,True
+CHREQ-096,Does the buyer need to raise a draft requisition for PPE-01?,purchasing,en,PPE-01,125,Jeddah,FAM-PPE,challenge_test,True
+CHREQ-097,هل تستدعي حالة هذا الصنف إعداد مسودة طلب توريد؟,purchasing,ar,,138,Dammam,FAM-PPE,challenge_test,True
+CHREQ-098,Prepare a purchase review for PPE-03 بالاستناد إلى المخزون.,purchasing,mixed,PPE-03,11,Madinah,FAM-PPE,challenge_test,True
+CHREQ-099,Estimate a procurement top-up of 24 for PPE-04; do not place an order.,purchasing,en,PPE-04,24,Abha,FAM-PPE,challenge_test,True
+CHREQ-100,راجع الحاجة الشرائية للصنف PPE-05 دون تنفيذ شراء.,purchasing,ar,PPE-05,37,Riyadh,FAM-PPE,challenge_test,True

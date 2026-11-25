@@ -1,0 +1,1638 @@
+{
+  "classification": {
+    "challenge_test": {
+      "accuracy": 0.68,
+      "bootstrap_95_ci": {
+        "accuracy_95_ci": [
+          0.58,
+          0.77
+        ],
+        "confidence": 0.95,
+        "macro_f1_95_ci": [
+          0.5658020280661035,
+          0.7587706833396488
+        ],
+        "method": "percentile bootstrap",
+        "resamples": 2000,
+        "seed": 6204
+      },
+      "confusion_matrix": {
+        "purchasing": {
+          "purchasing": 20,
+          "replenishment": 0,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 0
+        },
+        "replenishment": {
+          "purchasing": 1,
+          "replenishment": 16,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 3
+        },
+        "shipping": {
+          "purchasing": 1,
+          "replenishment": 0,
+          "shipping": 14,
+          "shortage_check": 3,
+          "stock_inquiry": 2
+        },
+        "shortage_check": {
+          "purchasing": 5,
+          "replenishment": 3,
+          "shipping": 0,
+          "shortage_check": 9,
+          "stock_inquiry": 3
+        },
+        "stock_inquiry": {
+          "purchasing": 3,
+          "replenishment": 2,
+          "shipping": 4,
+          "shortage_check": 2,
+          "stock_inquiry": 9
+        }
+      },
+      "errors": [
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-BEL",
+          "predicted": "purchasing",
+          "text": "Could you tell me the unreserved balance for the requested part at Madinah?"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-BEL",
+          "predicted": "shortage_check",
+          "text": "كم قطعة غير محجوزة من BEL-02 في أبها؟"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-BEL",
+          "predicted": "shipping",
+          "text": "Can I allocate BEL-03 من فرع Riyadh؟"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-LED",
+          "predicted": "purchasing",
+          "text": "Could you tell me the unreserved balance for LED-01 at Madinah?"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-LED",
+          "predicted": "shortage_check",
+          "text": "كم قطعة غير محجوزة من LED-02 في أبها؟"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-LED",
+          "predicted": "shipping",
+          "text": "Can I allocate LED-03 من فرع Riyadh؟"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-MSK",
+          "predicted": "replenishment",
+          "text": "Could you tell me the unreserved balance for MSK-01 at Jeddah?"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-MSK",
+          "predicted": "replenishment",
+          "text": "كم قطعة غير محجوزة من MSK-02 في الدمام؟"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-MSK",
+          "predicted": "shipping",
+          "text": "Can I allocate هذا الصنف من فرع Madinah؟"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-HLM",
+          "predicted": "purchasing",
+          "text": "Could you tell me the unreserved balance for HLM-01 at Madinah?"
+        },
+        {
+          "expected": "stock_inquiry",
+          "family_id": "FAM-HLM",
+          "predicted": "shipping",
+          "text": "Can I allocate HLM-03 من فرع Riyadh؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-PPE",
+          "predicted": "replenishment",
+          "text": "الطلب 143 قطعة، هل سيظهر عجز للصنف PPE-02 في الدمام؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-PPE",
+          "predicted": "purchasing",
+          "text": "هل الكمية تكفي لـ 16 units من PPE-03؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-BEL",
+          "predicted": "replenishment",
+          "text": "الطلب 68 قطعة، هل سيظهر عجز للصنف BEL-02 في أبها؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-BEL",
+          "predicted": "purchasing",
+          "text": "هل الكمية تكفي لـ 81 units من BEL-03؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-BEL",
+          "predicted": "purchasing",
+          "text": "Compare the 94-unit requirement with the free stock of the requested part."
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-BEL",
+          "predicted": "stock_inquiry",
+          "text": "قارن احتياج 107 وحدة برصيد BEL-05 المتاح."
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-LED",
+          "predicted": "purchasing",
+          "text": "هل الكمية تكفي لـ 146 units من هذا الصنف؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-LED",
+          "predicted": "stock_inquiry",
+          "text": "قارن احتياج 32 وحدة برصيد LED-05 المتاح."
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-MSK",
+          "predicted": "replenishment",
+          "text": "الطلب 58 قطعة، هل سيظهر عجز للصنف هذا الصنف في الدمام؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-MSK",
+          "predicted": "purchasing",
+          "text": "هل الكمية تكفي لـ 71 units من MSK-03؟"
+        },
+        {
+          "expected": "shortage_check",
+          "family_id": "FAM-MSK",
+          "predicted": "stock_inquiry",
+          "text": "قارن احتياج 97 وحدة برصيد MSK-05 المتاح."
+        },
+        {
+          "expected": "replenishment",
+          "family_id": "FAM-HLM",
+          "predicted": "purchasing",
+          "text": "Put the requested part on the restock review list for Madinah."
+        },
+        {
+          "expected": "replenishment",
+          "family_id": "FAM-PPE",
+          "predicted": "stock_inquiry",
+          "text": "Put PPE-01 on the restock review list for Jeddah."
+        },
+        {
+          "expected": "replenishment",
+          "family_id": "FAM-BEL",
+          "predicted": "stock_inquiry",
+          "text": "Put BEL-01 on the restock review list for Madinah."
+        },
+        {
+          "expected": "replenishment",
+          "family_id": "FAM-LED",
+          "predicted": "stock_inquiry",
+          "text": "Put LED-01 on the restock review list for Madinah."
+        },
+        {
+          "expected": "shipping",
+          "family_id": "FAM-MSK",
+          "predicted": "stock_inquiry",
+          "text": "Can the Jeddah team dispatch 90 of the requested part today?"
+        },
+        {
+          "expected": "shipping",
+          "family_id": "FAM-MSK",
+          "predicted": "shortage_check",
+          "text": "هل يمكن تجهيز شحنة من 103 وحدة للصنف MSK-02 عبر الدمام؟"
+        },
+        {
+          "expected": "shipping",
+          "family_id": "FAM-HLM",
+          "predicted": "shortage_check",
+          "text": "هل يمكن تجهيز شحنة من 28 وحدة للصنف HLM-02 عبر أبها؟"
+        },
+        {
+          "expected": "shipping",
+          "family_id": "FAM-PPE",
+          "predicted": "stock_inquiry",
+          "text": "Can the Jeddah team dispatch 80 of PPE-01 today?"
+        },
+        {
+          "expected": "shipping",
+          "family_id": "FAM-PPE",
+          "predicted": "shortage_check",
+          "text": "هل يمكن تجهيز شحنة من 93 وحدة للصنف PPE-02 عبر الدمام؟"
+        },
+        {
+          "expected": "shipping",
+          "family_id": "FAM-PPE",
+          "predicted": "purchasing",
+          "text": "Check delivery-ready stock for هذا الصنف من Madinah."
+        }
+      ],
+      "macro_f1": 0.666645632266715,
+      "n": 100,
+      "slices": {
+        "language": {
+          "ar": {
+            "accuracy": 0.7,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 8,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 8,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 5,
+                "shortage_check": 3,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 3,
+                "shipping": 0,
+                "shortage_check": 2,
+                "stock_inquiry": 3
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 1,
+                "shipping": 0,
+                "shortage_check": 2,
+                "stock_inquiry": 5
+              }
+            },
+            "macro_f1": 0.6921794871794872,
+            "n": 40
+          },
+          "en": {
+            "accuracy": 0.725,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 8,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 1,
+                "replenishment": 4,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 3
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 6,
+                "shortage_check": 0,
+                "stock_inquiry": 2
+              },
+              "shortage_check": {
+                "purchasing": 1,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 7,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 3,
+                "replenishment": 1,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 4
+              }
+            },
+            "macro_f1": 0.727670760611937,
+            "n": 40
+          },
+          "mixed": {
+            "accuracy": 0.55,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 4,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 4,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 1,
+                "replenishment": 0,
+                "shipping": 3,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 4,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 4,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              }
+            },
+            "macro_f1": 0.43216783216783217,
+            "n": 20
+          }
+        },
+        "length": {
+          "long": {
+            "accuracy": 0.6333333333333333,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 8,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 1,
+                "replenishment": 4,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 2,
+                "shortage_check": 3,
+                "stock_inquiry": 1
+              },
+              "shortage_check": {
+                "purchasing": 1,
+                "replenishment": 1,
+                "shipping": 0,
+                "shortage_check": 4,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 3,
+                "replenishment": 1,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 1
+              }
+            },
+            "macro_f1": 0.578055278055278,
+            "n": 30
+          },
+          "short": {
+            "accuracy": 0.7,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 12,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 12,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 3
+              },
+              "shipping": {
+                "purchasing": 1,
+                "replenishment": 0,
+                "shipping": 12,
+                "shortage_check": 0,
+                "stock_inquiry": 1
+              },
+              "shortage_check": {
+                "purchasing": 4,
+                "replenishment": 2,
+                "shipping": 0,
+                "shortage_check": 5,
+                "stock_inquiry": 3
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 1,
+                "shipping": 4,
+                "shortage_check": 2,
+                "stock_inquiry": 8
+              }
+            },
+            "macro_f1": 0.6874220032840722,
+            "n": 70
+          }
+        }
+      }
+    },
+    "test": {
+      "accuracy": 1.0,
+      "bootstrap_95_ci": {
+        "accuracy_95_ci": [
+          1.0,
+          1.0
+        ],
+        "confidence": 0.95,
+        "macro_f1_95_ci": [
+          1.0,
+          1.0
+        ],
+        "method": "percentile bootstrap",
+        "resamples": 2000,
+        "seed": 6204
+      },
+      "confusion_matrix": {
+        "purchasing": {
+          "purchasing": 10,
+          "replenishment": 0,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 0
+        },
+        "replenishment": {
+          "purchasing": 0,
+          "replenishment": 10,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 0
+        },
+        "shipping": {
+          "purchasing": 0,
+          "replenishment": 0,
+          "shipping": 10,
+          "shortage_check": 0,
+          "stock_inquiry": 0
+        },
+        "shortage_check": {
+          "purchasing": 0,
+          "replenishment": 0,
+          "shipping": 0,
+          "shortage_check": 10,
+          "stock_inquiry": 0
+        },
+        "stock_inquiry": {
+          "purchasing": 0,
+          "replenishment": 0,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 10
+        }
+      },
+      "errors": [],
+      "macro_f1": 1.0,
+      "n": 50,
+      "slices": {
+        "category": {
+          "Electronics": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 2,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 2,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 2,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 2,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 2
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 10
+          },
+          "Mechanical": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 2,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 2,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 2,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 2,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 2
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 10
+          },
+          "Safety": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 6,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 6,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 6,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 6,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 6
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 30
+          }
+        },
+        "language": {
+          "ar": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 6,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 6,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 4,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 4,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 5
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 25
+          },
+          "en": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 4,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 4,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 6,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 6,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 5
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 25
+          }
+        },
+        "length": {
+          "long": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 10,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 10,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 10,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 10,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 10
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 50
+          }
+        }
+      }
+    },
+    "validation": {
+      "accuracy": 0.95,
+      "bootstrap_95_ci": {
+        "accuracy_95_ci": [
+          0.875,
+          1.0
+        ],
+        "confidence": 0.95,
+        "macro_f1_95_ci": [
+          0.8586666666666666,
+          1.0
+        ],
+        "method": "percentile bootstrap",
+        "resamples": 2000,
+        "seed": 6204
+      },
+      "confusion_matrix": {
+        "purchasing": {
+          "purchasing": 8,
+          "replenishment": 0,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 0
+        },
+        "replenishment": {
+          "purchasing": 1,
+          "replenishment": 6,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 1
+        },
+        "shipping": {
+          "purchasing": 0,
+          "replenishment": 0,
+          "shipping": 8,
+          "shortage_check": 0,
+          "stock_inquiry": 0
+        },
+        "shortage_check": {
+          "purchasing": 0,
+          "replenishment": 0,
+          "shipping": 0,
+          "shortage_check": 8,
+          "stock_inquiry": 0
+        },
+        "stock_inquiry": {
+          "purchasing": 0,
+          "replenishment": 0,
+          "shipping": 0,
+          "shortage_check": 0,
+          "stock_inquiry": 8
+        }
+      },
+      "errors": [
+        {
+          "expected": "replenishment",
+          "family_id": "FAM-PMP",
+          "predicted": "purchasing",
+          "text": "Prepare a draft restock quantity for PMP-02 near Madinah. A technician asked for an evidence-based check of Centrifugal water pump 1 HP."
+        },
+        {
+          "expected": "replenishment",
+          "family_id": "FAM-FAN",
+          "predicted": "stock_inquiry",
+          "text": "Prepare a draft restock quantity for FAN-03 near Abha. The inventory clerk needs a clear record for the Axial ventilation fan 250 mm item card."
+        }
+      ],
+      "macro_f1": 0.9478991596638655,
+      "n": 40,
+      "slices": {
+        "category": {
+          "Electrical": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 2,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 2,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 2,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 2,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 2
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 10
+          },
+          "HVAC": {
+            "accuracy": 0.9,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 2,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 1,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 1
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 2,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 2,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 2
+              }
+            },
+            "macro_f1": 0.8933333333333333,
+            "n": 10
+          },
+          "Mechanical": {
+            "accuracy": 0.95,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 4,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 1,
+                "replenishment": 3,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 4,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 4,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 4
+              }
+            },
+            "macro_f1": 0.9492063492063492,
+            "n": 20
+          }
+        },
+        "language": {
+          "ar": {
+            "accuracy": 1.0,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 2,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 0,
+                "replenishment": 2,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 6,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 6,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 4
+              }
+            },
+            "macro_f1": 1.0,
+            "n": 20
+          },
+          "en": {
+            "accuracy": 0.9,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 6,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 1,
+                "replenishment": 4,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 1
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 2,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 2,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 4
+              }
+            },
+            "macro_f1": 0.9223931623931625,
+            "n": 20
+          }
+        },
+        "length": {
+          "long": {
+            "accuracy": 0.95,
+            "confusion_matrix": {
+              "purchasing": {
+                "purchasing": 8,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "replenishment": {
+                "purchasing": 1,
+                "replenishment": 6,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 1
+              },
+              "shipping": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 8,
+                "shortage_check": 0,
+                "stock_inquiry": 0
+              },
+              "shortage_check": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 8,
+                "stock_inquiry": 0
+              },
+              "stock_inquiry": {
+                "purchasing": 0,
+                "replenishment": 0,
+                "shipping": 0,
+                "shortage_check": 0,
+                "stock_inquiry": 8
+              }
+            },
+            "macro_f1": 0.9478991596638655,
+            "n": 40
+          }
+        }
+      }
+    }
+  },
+  "dataset": "synthetic-seed-62042026",
+  "limitations": [
+    "All evaluation corpora are synthetic and mostly template-generated; scores do not estimate production performance.",
+    "Topic classification is a custom Multinomial Naive Bayes baseline trained on train only; validation/test were not used for fitting.",
+    "NER rules are evaluated on 15 held-out examples from templated sentences; this is not a learned model. Product entities use the available inventory catalog as a lexicon, so the score is not a catalog-independent generalization estimate.",
+    "All challenge queries and relevance labels are synthetic. Use their measurements for controlled comparison, not estimates of production performance.",
+    "Pretrained transformer attention is available only when optional dependencies and a model are already cached locally."
+  ],
+  "ner": {
+    "by_entity_type": {
+      "PRODUCT": {
+        "f1": 1.0,
+        "gold_entities": 15,
+        "precision": 1.0,
+        "predicted_entities": 15,
+        "recall": 1.0,
+        "true_positive": 15
+      },
+      "QUANTITY": {
+        "f1": 1.0,
+        "gold_entities": 15,
+        "precision": 1.0,
+        "predicted_entities": 15,
+        "recall": 1.0,
+        "true_positive": 15
+      },
+      "SKU": {
+        "f1": 1.0,
+        "gold_entities": 15,
+        "precision": 1.0,
+        "predicted_entities": 15,
+        "recall": 1.0,
+        "true_positive": 15
+      },
+      "SUPPLIER": {
+        "f1": 1.0,
+        "gold_entities": 15,
+        "precision": 1.0,
+        "predicted_entities": 15,
+        "recall": 1.0,
+        "true_positive": 15
+      },
+      "WAREHOUSE": {
+        "f1": 1.0,
+        "gold_entities": 15,
+        "precision": 1.0,
+        "predicted_entities": 15,
+        "recall": 1.0,
+        "true_positive": 15
+      }
+    },
+    "errors": [],
+    "method": "Rule-based SKU/quantity detection plus training-split supplier lexicon, known warehouse names, and current inventory product/alias lookup; not a trained NER model.",
+    "metrics": {
+      "f1": 1.0,
+      "gold_entities": 75,
+      "precision": 1.0,
+      "predicted_entities": 75,
+      "recall": 1.0,
+      "true_positive": 75
+    },
+    "test_examples": 15
+  },
+  "seed": 62042026,
+  "semantic_search": {
+    "challenge_test": {
+      "candidate_skus": 25,
+      "cross_encoder_reranked": {
+        "ambiguity_detection": {
+          "f1": 0.3225806451612903,
+          "n": 75,
+          "precision": 0.19230769230769232,
+          "recall": 1.0,
+          "true_positive": 5
+        },
+        "bootstrap_95_ci": {
+          "mrr@10": [
+            0.9396825396825396,
+            1.0
+          ],
+          "recall@10": [
+            0.96,
+            1.0
+          ],
+          "resamples": 2000,
+          "seed": 6204
+        },
+        "errors": [],
+        "mrr@10": 0.9761904761904763,
+        "negative_false_accept_rate_at_fixed_threshold": 0.0,
+        "negative_queries": 25,
+        "negative_threshold": 0.2,
+        "positive_queries": 75,
+        "recall@10": 0.9866666666666667,
+        "slices": {
+          "language": {
+            "ar": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "en": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "mixed": {
+              "mrr": 0.9285714285714286,
+              "n": 25,
+              "recall_at_k": 0.96
+            }
+          },
+          "length": {
+            "long": {
+              "mrr": 0.9761904761904763,
+              "n": 75,
+              "recall_at_k": 0.9866666666666667
+            }
+          },
+          "query_type": {
+            "ambiguous_family": {
+              "mrr": 0.6428571428571428,
+              "n": 5,
+              "recall_at_k": 0.8
+            },
+            "ar_paraphrase": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "en_paraphrase": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "mixed_typo": {
+              "mrr": 1.0,
+              "n": 20,
+              "recall_at_k": 1.0
+            }
+          }
+        },
+        "top1_accuracy": 0.9733333333333334
+      },
+      "lexical_tfidf": {
+        "ambiguity_detection": {
+          "f1": 0.6666666666666666,
+          "n": 75,
+          "precision": 0.75,
+          "recall": 0.6,
+          "true_positive": 3
+        },
+        "bootstrap_95_ci": {
+          "mrr@10": [
+            0.9138095238095237,
+            0.9933333333333333
+          ],
+          "recall@10": [
+            1.0,
+            1.0
+          ],
+          "resamples": 2000,
+          "seed": 6204
+        },
+        "errors": [],
+        "mrr@10": 0.96005291005291,
+        "negative_false_accept_rate_at_fixed_threshold": 0.0,
+        "negative_queries": 25,
+        "negative_threshold": 0.2,
+        "positive_queries": 75,
+        "recall@10": 1.0,
+        "slices": {
+          "language": {
+            "ar": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "en": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "mixed": {
+              "mrr": 0.8801587301587301,
+              "n": 25,
+              "recall_at_k": 1.0
+            }
+          },
+          "length": {
+            "long": {
+              "mrr": 0.96005291005291,
+              "n": 75,
+              "recall_at_k": 1.0
+            }
+          },
+          "query_type": {
+            "ambiguous_family": {
+              "mrr": 0.4007936507936508,
+              "n": 5,
+              "recall_at_k": 1.0
+            },
+            "ar_paraphrase": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "en_paraphrase": {
+              "mrr": 1.0,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "mixed_typo": {
+              "mrr": 1.0,
+              "n": 20,
+              "recall_at_k": 1.0
+            }
+          }
+        },
+        "top1_accuracy": 0.9466666666666667
+      },
+      "sentence_transformer_faiss": {
+        "ambiguity_detection": {
+          "f1": 0.20408163265306123,
+          "n": 75,
+          "precision": 0.11363636363636363,
+          "recall": 1.0,
+          "true_positive": 5
+        },
+        "bootstrap_95_ci": {
+          "mrr@10": [
+            0.8048253968253968,
+            0.9317777777777777
+          ],
+          "recall@10": [
+            0.96,
+            1.0
+          ],
+          "resamples": 2000,
+          "seed": 6204
+        },
+        "errors": [
+          {
+            "expected_skus": [
+              "LED-01"
+            ],
+            "query": "Find the electronic service component rated red 12 V for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-04"
+          },
+          {
+            "expected_skus": [
+              "MSK-04"
+            ],
+            "query": "Find the protective work equipment rated N95 for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "HLM-05"
+            ],
+            "query": "Find the protective work equipment rated vented for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "HLM-05"
+            ],
+            "query": "أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف vented لعدة الصيانة.",
+            "query_type": "ar_paraphrase",
+            "top_sku": "HLM-03"
+          },
+          {
+            "expected_skus": [
+              "HLM-05"
+            ],
+            "query": "مطلوب معدة للوقاية المهنية spare specification vented للصيانه، الرجاء البحث.",
+            "query_type": "mixed_typo",
+            "top_sku": "HLM-01"
+          },
+          {
+            "expected_skus": [
+              "PPE-01"
+            ],
+            "query": "Find the protective work equipment rated size S for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "PPE-02"
+            ],
+            "query": "Find the protective work equipment rated size M for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "PPE-03"
+            ],
+            "query": "Find the protective work equipment rated size L for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "PPE-03"
+            ],
+            "query": "أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size L لعدة الصيانة.",
+            "query_type": "ar_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "PPE-04"
+            ],
+            "query": "Find the protective work equipment rated size XL for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "PPE-05"
+            ],
+            "query": "Find the protective work equipment rated size XXL for the maintenance kit.",
+            "query_type": "en_paraphrase",
+            "top_sku": "HLM-02"
+          },
+          {
+            "expected_skus": [
+              "PPE-05"
+            ],
+            "query": "أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size XXL لعدة الصيانة.",
+            "query_type": "ar_paraphrase",
+            "top_sku": "HLM-03"
+          }
+        ],
+        "mrr@10": 0.8726984126984129,
+        "negative_false_accept_rate_at_fixed_threshold": 0.0,
+        "negative_queries": 25,
+        "negative_threshold": 0.2,
+        "positive_queries": 75,
+        "recall@10": 0.9866666666666667,
+        "slices": {
+          "language": {
+            "ar": {
+              "mrr": 0.9047619047619047,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "en": {
+              "mrr": 0.8079999999999999,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "mixed": {
+              "mrr": 0.9053333333333333,
+              "n": 25,
+              "recall_at_k": 0.96
+            }
+          },
+          "length": {
+            "long": {
+              "mrr": 0.8726984126984129,
+              "n": 75,
+              "recall_at_k": 0.9866666666666667
+            }
+          },
+          "query_type": {
+            "ambiguous_family": {
+              "mrr": 0.6599999999999999,
+              "n": 5,
+              "recall_at_k": 0.8
+            },
+            "ar_paraphrase": {
+              "mrr": 0.9047619047619047,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "en_paraphrase": {
+              "mrr": 0.8079999999999999,
+              "n": 25,
+              "recall_at_k": 1.0
+            },
+            "mixed_typo": {
+              "mrr": 0.9666666666666666,
+              "n": 20,
+              "recall_at_k": 1.0
+            }
+          }
+        },
+        "top1_accuracy": 0.8133333333333334
+      }
+    },
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "errors": [
+      {
+        "expected_skus": [
+          "LED-01"
+        ],
+        "query": "Find the electronic service component rated red 12 V for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-04"
+      },
+      {
+        "expected_skus": [
+          "MSK-04"
+        ],
+        "query": "Find the protective work equipment rated N95 for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "HLM-05"
+        ],
+        "query": "Find the protective work equipment rated vented for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "HLM-05"
+        ],
+        "query": "أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف vented لعدة الصيانة.",
+        "query_type": "ar_paraphrase",
+        "top_sku": "HLM-03"
+      },
+      {
+        "expected_skus": [
+          "HLM-05"
+        ],
+        "query": "مطلوب معدة للوقاية المهنية spare specification vented للصيانه، الرجاء البحث.",
+        "query_type": "mixed_typo",
+        "top_sku": "HLM-01"
+      },
+      {
+        "expected_skus": [
+          "PPE-01"
+        ],
+        "query": "Find the protective work equipment rated size S for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "PPE-02"
+        ],
+        "query": "Find the protective work equipment rated size M for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "PPE-03"
+        ],
+        "query": "Find the protective work equipment rated size L for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "PPE-03"
+        ],
+        "query": "أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size L لعدة الصيانة.",
+        "query_type": "ar_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "PPE-04"
+        ],
+        "query": "Find the protective work equipment rated size XL for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "PPE-05"
+        ],
+        "query": "Find the protective work equipment rated size XXL for the maintenance kit.",
+        "query_type": "en_paraphrase",
+        "top_sku": "HLM-02"
+      },
+      {
+        "expected_skus": [
+          "PPE-05"
+        ],
+        "query": "أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size XXL لعدة الصيانة.",
+        "query_type": "ar_paraphrase",
+        "top_sku": "HLM-03"
+      }
+    ],
+    "index": "FAISS IndexFlatIP over normalized multilingual embeddings",
+    "standard_pair_test": {
+      "bootstrap_95_ci": {
+        "mrr@10": [
+          1.0,
+          1.0
+        ],
+        "recall@10": [
+          1.0,
+          1.0
+        ],
+        "resamples": 2000,
+        "seed": 6204
+      },
+      "candidate_products_per_query": [
+        25
+      ],
+      "limitation": "Standard pairs use product names in query text; use challenge_test for paraphrase robustness.",
+      "metrics": {
+        "mrr@10": 1.0,
+        "queries": 7,
+        "recall@10": 1.0
+      },
+      "queries": 7
+    }
+  }
+}

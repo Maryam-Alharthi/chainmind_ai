@@ -1,0 +1,101 @@
+query_id,query,query_type,language,expected_skus,is_negative,family_id,split,synthetic
+CHQ-001,Find the mechanical maintenance part rated A32 for the maintenance kit.,en_paraphrase,en,BEL-01,False,FAM-BEL,challenge_test,True
+CHQ-002,أبحث عن قطعة صيانة ميكانيكية بالمقاس أو التصنيف A32 لعدة الصيانة.,ar_paraphrase,ar,BEL-01,False,FAM-BEL,challenge_test,True
+CHQ-003,مطلوب قطعة صيانة ميكانيكية spare specification A32 للصيانه، الرجاء البحث.,mixed_typo,mixed,BEL-01,False,FAM-BEL,challenge_test,True
+CHQ-004,Find the mechanical maintenance part rated A38 for the maintenance kit.,en_paraphrase,en,BEL-02,False,FAM-BEL,challenge_test,True
+CHQ-005,أبحث عن قطعة صيانة ميكانيكية بالمقاس أو التصنيف A38 لعدة الصيانة.,ar_paraphrase,ar,BEL-02,False,FAM-BEL,challenge_test,True
+CHQ-006,مطلوب قطعة صيانة ميكانيكية spare specification A38 للصيانه، الرجاء البحث.,mixed_typo,mixed,BEL-02,False,FAM-BEL,challenge_test,True
+CHQ-007,Find the mechanical maintenance part rated A44 for the maintenance kit.,en_paraphrase,en,BEL-03,False,FAM-BEL,challenge_test,True
+CHQ-008,أبحث عن قطعة صيانة ميكانيكية بالمقاس أو التصنيف A44 لعدة الصيانة.,ar_paraphrase,ar,BEL-03,False,FAM-BEL,challenge_test,True
+CHQ-009,مطلوب قطعة صيانة ميكانيكية spare specification A44 للصيانه، الرجاء البحث.,mixed_typo,mixed,BEL-03,False,FAM-BEL,challenge_test,True
+CHQ-010,Find the mechanical maintenance part rated B50 for the maintenance kit.,en_paraphrase,en,BEL-04,False,FAM-BEL,challenge_test,True
+CHQ-011,أبحث عن قطعة صيانة ميكانيكية بالمقاس أو التصنيف B50 لعدة الصيانة.,ar_paraphrase,ar,BEL-04,False,FAM-BEL,challenge_test,True
+CHQ-012,مطلوب قطعة صيانة ميكانيكية spare specification B50 للصيانه، الرجاء البحث.,mixed_typo,mixed,BEL-04,False,FAM-BEL,challenge_test,True
+CHQ-013,Find the mechanical maintenance part rated B62 for the maintenance kit.,en_paraphrase,en,BEL-05,False,FAM-BEL,challenge_test,True
+CHQ-014,أبحث عن قطعة صيانة ميكانيكية بالمقاس أو التصنيف B62 لعدة الصيانة.,ar_paraphrase,ar,BEL-05,False,FAM-BEL,challenge_test,True
+CHQ-015,مطلوب قطعة صيانة ميكانيكية spare specification B62 للصيانه، الرجاء البحث.,mixed_typo,mixed,BEL-05,False,FAM-BEL,challenge_test,True
+CHQ-016,Find the electronic service component rated red 12 V for the maintenance kit.,en_paraphrase,en,LED-01,False,FAM-LED,challenge_test,True
+CHQ-017,أبحث عن مكوّن إلكتروني للخدمة بالمقاس أو التصنيف red 12 V لعدة الصيانة.,ar_paraphrase,ar,LED-01,False,FAM-LED,challenge_test,True
+CHQ-018,مطلوب مكوّن إلكتروني للخدمة spare specification red 12 V للصيانه، الرجاء البحث.,mixed_typo,mixed,LED-01,False,FAM-LED,challenge_test,True
+CHQ-019,Find the electronic service component rated green 12 V for the maintenance kit.,en_paraphrase,en,LED-02,False,FAM-LED,challenge_test,True
+CHQ-020,أبحث عن مكوّن إلكتروني للخدمة بالمقاس أو التصنيف green 12 V لعدة الصيانة.,ar_paraphrase,ar,LED-02,False,FAM-LED,challenge_test,True
+CHQ-021,مطلوب مكوّن إلكتروني للخدمة spare specification green 12 V للصيانه، الرجاء البحث.,mixed_typo,mixed,LED-02,False,FAM-LED,challenge_test,True
+CHQ-022,Find the electronic service component rated red 24 V for the maintenance kit.,en_paraphrase,en,LED-03,False,FAM-LED,challenge_test,True
+CHQ-023,أبحث عن مكوّن إلكتروني للخدمة بالمقاس أو التصنيف red 24 V لعدة الصيانة.,ar_paraphrase,ar,LED-03,False,FAM-LED,challenge_test,True
+CHQ-024,مطلوب مكوّن إلكتروني للخدمة spare specification red 24 V للصيانه، الرجاء البحث.,mixed_typo,mixed,LED-03,False,FAM-LED,challenge_test,True
+CHQ-025,Find the electronic service component rated green 24 V for the maintenance kit.,en_paraphrase,en,LED-04,False,FAM-LED,challenge_test,True
+CHQ-026,أبحث عن مكوّن إلكتروني للخدمة بالمقاس أو التصنيف green 24 V لعدة الصيانة.,ar_paraphrase,ar,LED-04,False,FAM-LED,challenge_test,True
+CHQ-027,مطلوب مكوّن إلكتروني للخدمة spare specification green 24 V للصيانه، الرجاء البحث.,mixed_typo,mixed,LED-04,False,FAM-LED,challenge_test,True
+CHQ-028,Find the electronic service component rated amber 24 V for the maintenance kit.,en_paraphrase,en,LED-05,False,FAM-LED,challenge_test,True
+CHQ-029,أبحث عن مكوّن إلكتروني للخدمة بالمقاس أو التصنيف amber 24 V لعدة الصيانة.,ar_paraphrase,ar,LED-05,False,FAM-LED,challenge_test,True
+CHQ-030,مطلوب مكوّن إلكتروني للخدمة spare specification amber 24 V للصيانه، الرجاء البحث.,mixed_typo,mixed,LED-05,False,FAM-LED,challenge_test,True
+CHQ-031,Find the protective work equipment rated P1 for the maintenance kit.,en_paraphrase,en,MSK-01,False,FAM-MSK,challenge_test,True
+CHQ-032,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف P1 لعدة الصيانة.,ar_paraphrase,ar,MSK-01,False,FAM-MSK,challenge_test,True
+CHQ-033,مطلوب معدة للوقاية المهنية spare specification P1 للصيانه، الرجاء البحث.,mixed_typo,mixed,MSK-01,False,FAM-MSK,challenge_test,True
+CHQ-034,Find the protective work equipment rated P2 for the maintenance kit.,en_paraphrase,en,MSK-02,False,FAM-MSK,challenge_test,True
+CHQ-035,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف P2 لعدة الصيانة.,ar_paraphrase,ar,MSK-02,False,FAM-MSK,challenge_test,True
+CHQ-036,مطلوب معدة للوقاية المهنية spare specification P2 للصيانه، الرجاء البحث.,mixed_typo,mixed,MSK-02,False,FAM-MSK,challenge_test,True
+CHQ-037,Find the protective work equipment rated P3 for the maintenance kit.,en_paraphrase,en,MSK-03,False,FAM-MSK,challenge_test,True
+CHQ-038,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف P3 لعدة الصيانة.,ar_paraphrase,ar,MSK-03,False,FAM-MSK,challenge_test,True
+CHQ-039,مطلوب معدة للوقاية المهنية spare specification P3 للصيانه، الرجاء البحث.,mixed_typo,mixed,MSK-03,False,FAM-MSK,challenge_test,True
+CHQ-040,Find the protective work equipment rated N95 for the maintenance kit.,en_paraphrase,en,MSK-04,False,FAM-MSK,challenge_test,True
+CHQ-041,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف N95 لعدة الصيانة.,ar_paraphrase,ar,MSK-04,False,FAM-MSK,challenge_test,True
+CHQ-042,مطلوب معدة للوقاية المهنية spare specification N95 للصيانه، الرجاء البحث.,mixed_typo,mixed,MSK-04,False,FAM-MSK,challenge_test,True
+CHQ-043,Find the protective work equipment rated FFP2 for the maintenance kit.,en_paraphrase,en,MSK-05,False,FAM-MSK,challenge_test,True
+CHQ-044,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف FFP2 لعدة الصيانة.,ar_paraphrase,ar,MSK-05,False,FAM-MSK,challenge_test,True
+CHQ-045,مطلوب معدة للوقاية المهنية spare specification FFP2 للصيانه، الرجاء البحث.,mixed_typo,mixed,MSK-05,False,FAM-MSK,challenge_test,True
+CHQ-046,Find the protective work equipment rated white for the maintenance kit.,en_paraphrase,en,HLM-01,False,FAM-HLM,challenge_test,True
+CHQ-047,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف white لعدة الصيانة.,ar_paraphrase,ar,HLM-01,False,FAM-HLM,challenge_test,True
+CHQ-048,مطلوب معدة للوقاية المهنية spare specification white للصيانه، الرجاء البحث.,mixed_typo,mixed,HLM-01,False,FAM-HLM,challenge_test,True
+CHQ-049,Find the protective work equipment rated yellow for the maintenance kit.,en_paraphrase,en,HLM-02,False,FAM-HLM,challenge_test,True
+CHQ-050,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف yellow لعدة الصيانة.,ar_paraphrase,ar,HLM-02,False,FAM-HLM,challenge_test,True
+CHQ-051,مطلوب معدة للوقاية المهنية spare specification yellow للصيانه، الرجاء البحث.,mixed_typo,mixed,HLM-02,False,FAM-HLM,challenge_test,True
+CHQ-052,Find the protective work equipment rated blue for the maintenance kit.,en_paraphrase,en,HLM-03,False,FAM-HLM,challenge_test,True
+CHQ-053,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف blue لعدة الصيانة.,ar_paraphrase,ar,HLM-03,False,FAM-HLM,challenge_test,True
+CHQ-054,مطلوب معدة للوقاية المهنية spare specification blue للصيانه، الرجاء البحث.,mixed_typo,mixed,HLM-03,False,FAM-HLM,challenge_test,True
+CHQ-055,Find the protective work equipment rated red for the maintenance kit.,en_paraphrase,en,HLM-04,False,FAM-HLM,challenge_test,True
+CHQ-056,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف red لعدة الصيانة.,ar_paraphrase,ar,HLM-04,False,FAM-HLM,challenge_test,True
+CHQ-057,مطلوب معدة للوقاية المهنية spare specification red للصيانه، الرجاء البحث.,mixed_typo,mixed,HLM-04,False,FAM-HLM,challenge_test,True
+CHQ-058,Find the protective work equipment rated vented for the maintenance kit.,en_paraphrase,en,HLM-05,False,FAM-HLM,challenge_test,True
+CHQ-059,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف vented لعدة الصيانة.,ar_paraphrase,ar,HLM-05,False,FAM-HLM,challenge_test,True
+CHQ-060,مطلوب معدة للوقاية المهنية spare specification vented للصيانه، الرجاء البحث.,mixed_typo,mixed,HLM-05,False,FAM-HLM,challenge_test,True
+CHQ-061,Find the protective work equipment rated size S for the maintenance kit.,en_paraphrase,en,PPE-01,False,FAM-PPE,challenge_test,True
+CHQ-062,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size S لعدة الصيانة.,ar_paraphrase,ar,PPE-01,False,FAM-PPE,challenge_test,True
+CHQ-063,Find the protective work equipment rated size M for the maintenance kit.,en_paraphrase,en,PPE-02,False,FAM-PPE,challenge_test,True
+CHQ-064,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size M لعدة الصيانة.,ar_paraphrase,ar,PPE-02,False,FAM-PPE,challenge_test,True
+CHQ-065,Find the protective work equipment rated size L for the maintenance kit.,en_paraphrase,en,PPE-03,False,FAM-PPE,challenge_test,True
+CHQ-066,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size L لعدة الصيانة.,ar_paraphrase,ar,PPE-03,False,FAM-PPE,challenge_test,True
+CHQ-067,Find the protective work equipment rated size XL for the maintenance kit.,en_paraphrase,en,PPE-04,False,FAM-PPE,challenge_test,True
+CHQ-068,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size XL لعدة الصيانة.,ar_paraphrase,ar,PPE-04,False,FAM-PPE,challenge_test,True
+CHQ-069,Find the protective work equipment rated size XXL for the maintenance kit.,en_paraphrase,en,PPE-05,False,FAM-PPE,challenge_test,True
+CHQ-070,أبحث عن معدة للوقاية المهنية بالمقاس أو التصنيف size XXL لعدة الصيانة.,ar_paraphrase,ar,PPE-05,False,FAM-PPE,challenge_test,True
+CHQ-071,Which drive transmission variants should I compare for maintenance?,ambiguous_family,mixed,BEL-01|BEL-02|BEL-03|BEL-04|BEL-05,False,FAM-BEL,challenge_test,True
+CHQ-072,ما الخيارات المناسبة من فئة مستلزمات الصيانة لأعمال الموقع؟,ambiguous_family,mixed,LED-01|LED-02|LED-03|LED-04|LED-05,False,FAM-LED,challenge_test,True
+CHQ-073,Which breathing protection variants should I compare for maintenance?,ambiguous_family,mixed,MSK-01|MSK-02|MSK-03|MSK-04|MSK-05,False,FAM-MSK,challenge_test,True
+CHQ-074,ما الخيارات المناسبة من فئة حماية الرأس لأعمال الموقع؟,ambiguous_family,mixed,HLM-01|HLM-02|HLM-03|HLM-04|HLM-05,False,FAM-HLM,challenge_test,True
+CHQ-075,Which visibility equipment variants should I compare for maintenance?,ambiguous_family,mixed,PPE-01|PPE-02|PPE-03|PPE-04|PPE-05,False,FAM-PPE,challenge_test,True
+CHQ-076,Find a replacement for non-catalog part ZXQ-9000; no matching item should exist.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-077,أبحث عن قطعة غير موجودة برمز ZXQ-9001 ولا يوجد لها بديل في القائمة.,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-078,Need the imaginary component code ZXQ-9002 for a discontinued unit.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-079,هل يتوفر الصنف الوهمي ZXQ-9003 في أي مستودع؟,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-080,"Spare for a fictional machine, reference ZXQ-9004, not a real inventory part.",negative_missing_sku,en,,True,,challenge_test,True
+CHQ-081,Find a replacement for non-catalog part ZXQ-9005; no matching item should exist.,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-082,أبحث عن قطعة غير موجودة برمز ZXQ-9006 ولا يوجد لها بديل في القائمة.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-083,Need the imaginary component code ZXQ-9007 for a discontinued unit.,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-084,هل يتوفر الصنف الوهمي ZXQ-9008 في أي مستودع؟,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-085,"Spare for a fictional machine, reference ZXQ-9009, not a real inventory part.",negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-086,Find a replacement for non-catalog part ZXQ-9010; no matching item should exist.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-087,أبحث عن قطعة غير موجودة برمز ZXQ-9011 ولا يوجد لها بديل في القائمة.,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-088,Need the imaginary component code ZXQ-9012 for a discontinued unit.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-089,هل يتوفر الصنف الوهمي ZXQ-9013 في أي مستودع؟,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-090,"Spare for a fictional machine, reference ZXQ-9014, not a real inventory part.",negative_missing_sku,en,,True,,challenge_test,True
+CHQ-091,Find a replacement for non-catalog part ZXQ-9015; no matching item should exist.,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-092,أبحث عن قطعة غير موجودة برمز ZXQ-9016 ولا يوجد لها بديل في القائمة.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-093,Need the imaginary component code ZXQ-9017 for a discontinued unit.,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-094,هل يتوفر الصنف الوهمي ZXQ-9018 في أي مستودع؟,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-095,"Spare for a fictional machine, reference ZXQ-9019, not a real inventory part.",negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-096,Find a replacement for non-catalog part ZXQ-9020; no matching item should exist.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-097,أبحث عن قطعة غير موجودة برمز ZXQ-9021 ولا يوجد لها بديل في القائمة.,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-098,Need the imaginary component code ZXQ-9022 for a discontinued unit.,negative_missing_sku,en,,True,,challenge_test,True
+CHQ-099,هل يتوفر الصنف الوهمي ZXQ-9023 في أي مستودع؟,negative_missing_sku,ar,,True,,challenge_test,True
+CHQ-100,"Spare for a fictional machine, reference ZXQ-9024, not a real inventory part.",negative_missing_sku,en,,True,,challenge_test,True

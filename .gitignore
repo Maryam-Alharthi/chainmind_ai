@@ -1,0 +1,40 @@
+# Python environments, test and interpreter caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.cache/
+hf_cache/
+huggingface_cache/
+
+# Local secrets and uploads
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+uploads/
+
+# Large local model weights and checkpoints; keep the small JSON NB model artifact.
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
+models/**/*.safetensors
+models/**/*.onnx
+models/**/checkpoint*/
+models/**/runs/
+models/cache/
+*.faiss
+
+# Runtime-generated reports/logs; keep the reproducible published evaluation JSON.
+reports/*
+!reports/nlp_evaluation.json
+*.log
+.DS_Store
+
+# Local agent skill link
+.agents/skills/developing-with-streamlit
